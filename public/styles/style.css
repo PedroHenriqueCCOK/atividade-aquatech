@@ -1,1 +1,232 @@
-/* Adicionar aqui toda a estilização criada para sua aplicação. */
+/* Aqui começa o index.html */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: black;
+    border-bottom: 3px solid #32b9cd;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+}
+
+.titulo {
+    color: #32b9cd;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    width: 300px;
+    justify-content: space-between;
+    color: #e3b062;
+
+}
+
+.navbar a {
+    color: #e3b062;
+    outline: none;
+    text-decoration: none;
+}
+
+.agora {
+    font-weight: bolder;
+}
+
+.banner {
+    height: 400px;
+    width: 100%;
+    background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+    background-size: cover;
+}
+
+.banner .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .container p {
+    width: 140px;
+    color: white;
+    margin: 0;
+    font-size: 24px;
+
+}
+
+.banner .container span {
+    font-weight: bolder;
+}
+
+.social {
+    height: 400px;
+    width: 100%;
+    background-color: #dcdcdc;
+}
+
+.social .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social .container .boxes {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social .container .boxes .box {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.social .container .boxes img {
+    width: 120px;
+    height: 120px;
+}
+.social .container .boxes h4 {
+    margin: 0;
+    margin-top: 10px;
+    color: #ed145b;
+}
+.footer {
+    height: 120px;
+    width: 100%;
+    background-color: #32b9cd;
+}
+.footer .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.footer .container h4 {
+    margin: 0;
+}
+/* Aqui termina o index.html */
+.login {
+    height: 700px;
+    width: 100%;
+    background-image: url('../assets/imgs/bg-jelly-fish-para_outras_pags.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .container {
+    width: 700px;
+    height: 350px;
+    background-color: #D9D9D9;
+    color: #ed145b;
+    border-radius: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .container .card-login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-login h2{
+    font-size: 30px;
+}
+
+.login .container .card-login .formulario {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.formulario .campo {
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+}
+.campo input {
+    border: 3px solid #32b9cd;
+    border-radius: 10px;
+    width: 400px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.formulario .botao{
+    padding: 10px;
+    background-color: #ed145b;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: large;
+}
+.cadastro {
+    height: 700px;
+    width: 100%;
+    background-image: url('../assets/imgs/bg-jelly-fish-para_outras_pags.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cadastro .container {
+    width: 700px;
+    height: 550px;
+    background-color: #D9D9D9;
+    color: #ed145b;
+    border-radius: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cadastro .container .card-cadastro {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-cadastro .formulario{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
